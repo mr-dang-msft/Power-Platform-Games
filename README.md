@@ -2,7 +2,7 @@
 Samples of games developed on Microsoft Power Platform
 
 ### Animal Crossing companion app
-It is difficult to know which critters can be found at any given time in Animal Crossing. Reading and sorting tables on internet articles is inefficient. THe Animal Crossing companion app solves this problem by providing a one-click experience to filter out fish, sea creatures, and bugs to only those that are currently available. It also has other features to augment the gaming experience in Animal Crossing.
+It is difficult to know which critters can be found at any given time in Animal Crossing. Reading and sorting tables on internet articles is inefficient. The Animal Crossing companion app solves this problem by providing a one-click experience to filter out fish, sea creatures, and bugs to only those that are currently available. It also has other features to augment the gaming experience in Animal Crossing.
 | File name | Description | 
 | --- | :-- | 
 | ACNHViewer_20200802202013.zip | App package to import into Power Apps |
@@ -25,3 +25,6 @@ It is difficult to know which critters can be found at any given time in Animal 
 9. In the page for Import package, find the row for the AnimalCrossing custom connector.
 10. Under the column 'Import setup,' click 'Select during import.' Select the AnimalCrossing custom connector made in the previous steps.
 11. Click Import.
+
+### Credits
+The Animal Crossing companion app and its custom connector use the [ACNH API](http://acnhapi.com/) by [Alexis Lours](mailto:admin@acnhapi.com). 
