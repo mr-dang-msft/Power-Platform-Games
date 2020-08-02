@@ -1,0 +1,1747 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "AnimalCrossing",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "acnhapi.com",
+  "basePath": "/v1a/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/fish": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "id"
+                  },
+                  "file-name": {
+                    "type": "string",
+                    "description": "file-name"
+                  },
+                  "name": {
+                    "type": "object",
+                    "properties": {
+                      "name-USen": {
+                        "type": "string",
+                        "description": "name-USen"
+                      },
+                      "name-EUen": {
+                        "type": "string",
+                        "description": "name-EUen"
+                      },
+                      "name-EUde": {
+                        "type": "string",
+                        "description": "name-EUde"
+                      },
+                      "name-EUes": {
+                        "type": "string",
+                        "description": "name-EUes"
+                      },
+                      "name-USes": {
+                        "type": "string",
+                        "description": "name-USes"
+                      },
+                      "name-EUfr": {
+                        "type": "string",
+                        "description": "name-EUfr"
+                      },
+                      "name-USfr": {
+                        "type": "string",
+                        "description": "name-USfr"
+                      },
+                      "name-EUit": {
+                        "type": "string",
+                        "description": "name-EUit"
+                      },
+                      "name-EUnl": {
+                        "type": "string",
+                        "description": "name-EUnl"
+                      },
+                      "name-CNzh": {
+                        "type": "string",
+                        "description": "name-CNzh"
+                      },
+                      "name-TWzh": {
+                        "type": "string",
+                        "description": "name-TWzh"
+                      },
+                      "name-JPja": {
+                        "type": "string",
+                        "description": "name-JPja"
+                      },
+                      "name-KRko": {
+                        "type": "string",
+                        "description": "name-KRko"
+                      },
+                      "name-EUru": {
+                        "type": "string",
+                        "description": "name-EUru"
+                      }
+                    },
+                    "description": "name"
+                  },
+                  "availability": {
+                    "type": "object",
+                    "properties": {
+                      "month-northern": {
+                        "type": "string",
+                        "description": "month-northern"
+                      },
+                      "month-southern": {
+                        "type": "string",
+                        "description": "month-southern"
+                      },
+                      "time": {
+                        "type": "string",
+                        "description": "time"
+                      },
+                      "isAllDay": {
+                        "type": "boolean",
+                        "description": "isAllDay"
+                      },
+                      "isAllYear": {
+                        "type": "boolean",
+                        "description": "isAllYear"
+                      },
+                      "location": {
+                        "type": "string",
+                        "description": "location"
+                      },
+                      "rarity": {
+                        "type": "string",
+                        "description": "rarity"
+                      },
+                      "month-array-northern": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "description": "month-array-northern"
+                      },
+                      "month-array-southern": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "description": "month-array-southern"
+                      },
+                      "time-array": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "description": "time-array"
+                      }
+                    },
+                    "description": "availability"
+                  },
+                  "shadow": {
+                    "type": "string",
+                    "description": "shadow"
+                  },
+                  "price": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "price"
+                  },
+                  "price-cj": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "price-cj"
+                  },
+                  "catch-phrase": {
+                    "type": "string",
+                    "description": "catch-phrase"
+                  },
+                  "museum-phrase": {
+                    "type": "string",
+                    "description": "museum-phrase"
+                  },
+                  "image_uri": {
+                    "type": "string",
+                    "description": "image_uri"
+                  },
+                  "icon_uri": {
+                    "type": "string",
+                    "description": "icon_uri"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "operationId": "Fish",
+        "parameters": [],
+        "summary": "Fish",
+        "description": "Get fish data in JSON format."
+      }
+    },
+    "/sea": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "id"
+                  },
+                  "file-name": {
+                    "type": "string",
+                    "description": "file-name"
+                  },
+                  "name": {
+                    "type": "object",
+                    "properties": {
+                      "name-USen": {
+                        "type": "string",
+                        "description": "name-USen"
+                      },
+                      "name-EUen": {
+                        "type": "string",
+                        "description": "name-EUen"
+                      },
+                      "name-EUnl": {
+                        "type": "string",
+                        "description": "name-EUnl"
+                      },
+                      "name-EUde": {
+                        "type": "string",
+                        "description": "name-EUde"
+                      },
+                      "name-EUes": {
+                        "type": "string",
+                        "description": "name-EUes"
+                      },
+                      "name-USes": {
+                        "type": "string",
+                        "description": "name-USes"
+                      },
+                      "name-EUfr": {
+                        "type": "string",
+                        "description": "name-EUfr"
+                      },
+                      "name-USfr": {
+                        "type": "string",
+                        "description": "name-USfr"
+                      },
+                      "name-EUit": {
+                        "type": "string",
+                        "description": "name-EUit"
+                      },
+                      "name-CNzh": {
+                        "type": "string",
+                        "description": "name-CNzh"
+                      },
+                      "name-TWzh": {
+                        "type": "string",
+                        "description": "name-TWzh"
+                      },
+                      "name-JPja": {
+                        "type": "string",
+                        "description": "name-JPja"
+                      },
+                      "name-KRko": {
+                        "type": "string",
+                        "description": "name-KRko"
+                      },
+                      "name-EUru": {
+                        "type": "string",
+                        "description": "name-EUru"
+                      }
+                    },
+                    "description": "name"
+                  },
+                  "availability": {
+                    "type": "object",
+                    "properties": {
+                      "month-northern": {
+                        "type": "string",
+                        "description": "month-northern"
+                      },
+                      "month-southern": {
+                        "type": "string",
+                        "description": "month-southern"
+                      },
+                      "time": {
+                        "type": "string",
+                        "description": "time"
+                      },
+                      "isAllDay": {
+                        "type": "boolean",
+                        "description": "isAllDay"
+                      },
+                      "isAllYear": {
+                        "type": "boolean",
+                        "description": "isAllYear"
+                      },
+                      "month-array-northern": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "description": "month-array-northern"
+                      },
+                      "month-array-southern": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "description": "month-array-southern"
+                      },
+                      "time-array": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "description": "time-array"
+                      }
+                    },
+                    "description": "availability"
+                  },
+                  "speed": {
+                    "type": "string",
+                    "description": "speed"
+                  },
+                  "shadow": {
+                    "type": "string",
+                    "description": "shadow"
+                  },
+                  "price": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "price"
+                  },
+                  "catch-phrase": {
+                    "type": "string",
+                    "description": "catch-phrase"
+                  },
+                  "image_uri": {
+                    "type": "string",
+                    "description": "image_uri"
+                  },
+                  "icon_uri": {
+                    "type": "string",
+                    "description": "icon_uri"
+                  },
+                  "museum-phrase": {
+                    "type": "string",
+                    "description": "museum-phrase"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Sea Creatures",
+        "operationId": "Sea",
+        "description": "Get sea creature data in JSON format.",
+        "parameters": []
+      }
+    },
+    "/bugs": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "id"
+                  },
+                  "file-name": {
+                    "type": "string",
+                    "description": "file-name"
+                  },
+                  "name": {
+                    "type": "object",
+                    "properties": {
+                      "name-USen": {
+                        "type": "string",
+                        "description": "name-USen"
+                      },
+                      "name-EUen": {
+                        "type": "string",
+                        "description": "name-EUen"
+                      },
+                      "name-EUde": {
+                        "type": "string",
+                        "description": "name-EUde"
+                      },
+                      "name-EUes": {
+                        "type": "string",
+                        "description": "name-EUes"
+                      },
+                      "name-USes": {
+                        "type": "string",
+                        "description": "name-USes"
+                      },
+                      "name-EUfr": {
+                        "type": "string",
+                        "description": "name-EUfr"
+                      },
+                      "name-USfr": {
+                        "type": "string",
+                        "description": "name-USfr"
+                      },
+                      "name-EUit": {
+                        "type": "string",
+                        "description": "name-EUit"
+                      },
+                      "name-EUnl": {
+                        "type": "string",
+                        "description": "name-EUnl"
+                      },
+                      "name-CNzh": {
+                        "type": "string",
+                        "description": "name-CNzh"
+                      },
+                      "name-TWzh": {
+                        "type": "string",
+                        "description": "name-TWzh"
+                      },
+                      "name-JPja": {
+                        "type": "string",
+                        "description": "name-JPja"
+                      },
+                      "name-KRko": {
+                        "type": "string",
+                        "description": "name-KRko"
+                      },
+                      "name-EUru": {
+                        "type": "string",
+                        "description": "name-EUru"
+                      }
+                    },
+                    "description": "name"
+                  },
+                  "availability": {
+                    "type": "object",
+                    "properties": {
+                      "month-northern": {
+                        "type": "string",
+                        "description": "month-northern"
+                      },
+                      "month-southern": {
+                        "type": "string",
+                        "description": "month-southern"
+                      },
+                      "time": {
+                        "type": "string",
+                        "description": "time"
+                      },
+                      "isAllDay": {
+                        "type": "boolean",
+                        "description": "isAllDay"
+                      },
+                      "isAllYear": {
+                        "type": "boolean",
+                        "description": "isAllYear"
+                      },
+                      "location": {
+                        "type": "string",
+                        "description": "location"
+                      },
+                      "rarity": {
+                        "type": "string",
+                        "description": "rarity"
+                      },
+                      "month-array-northern": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "description": "month-array-northern"
+                      },
+                      "month-array-southern": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "description": "month-array-southern"
+                      },
+                      "time-array": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "format": "int32"
+                        },
+                        "description": "time-array"
+                      }
+                    },
+                    "description": "availability"
+                  },
+                  "price": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "price"
+                  },
+                  "price-flick": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "price-flick"
+                  },
+                  "catch-phrase": {
+                    "type": "string",
+                    "description": "catch-phrase"
+                  },
+                  "museum-phrase": {
+                    "type": "string",
+                    "description": "museum-phrase"
+                  },
+                  "image_uri": {
+                    "type": "string",
+                    "description": "image_uri"
+                  },
+                  "icon_uri": {
+                    "type": "string",
+                    "description": "icon_uri"
+                  },
+                  "alt-catch-phrase": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "alt-catch-phrase"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Bugs",
+        "description": "Get bugs data in JSON format.",
+        "operationId": "Bugs",
+        "parameters": []
+      }
+    },
+    "/fossils": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "file-name": {
+                    "type": "string",
+                    "description": "file-name"
+                  },
+                  "name": {
+                    "type": "object",
+                    "properties": {
+                      "name-USen": {
+                        "type": "string",
+                        "description": "name-USen"
+                      },
+                      "name-EUen": {
+                        "type": "string",
+                        "description": "name-EUen"
+                      },
+                      "name-EUde": {
+                        "type": "string",
+                        "description": "name-EUde"
+                      },
+                      "name-EUes": {
+                        "type": "string",
+                        "description": "name-EUes"
+                      },
+                      "name-USes": {
+                        "type": "string",
+                        "description": "name-USes"
+                      },
+                      "name-EUfr": {
+                        "type": "string",
+                        "description": "name-EUfr"
+                      },
+                      "name-USfr": {
+                        "type": "string",
+                        "description": "name-USfr"
+                      },
+                      "name-EUit": {
+                        "type": "string",
+                        "description": "name-EUit"
+                      },
+                      "name-EUnl": {
+                        "type": "string",
+                        "description": "name-EUnl"
+                      },
+                      "name-CNzh": {
+                        "type": "string",
+                        "description": "name-CNzh"
+                      },
+                      "name-TWzh": {
+                        "type": "string",
+                        "description": "name-TWzh"
+                      },
+                      "name-JPja": {
+                        "type": "string",
+                        "description": "name-JPja"
+                      },
+                      "name-KRko": {
+                        "type": "string",
+                        "description": "name-KRko"
+                      },
+                      "name-EUru": {
+                        "type": "string",
+                        "description": "name-EUru"
+                      }
+                    },
+                    "description": "name"
+                  },
+                  "price": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "price"
+                  },
+                  "museum-phrase": {
+                    "type": "string",
+                    "description": "museum-phrase"
+                  },
+                  "image_uri": {
+                    "type": "string",
+                    "description": "image_uri"
+                  },
+                  "part-of": {
+                    "type": "string",
+                    "description": "part-of"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Fossils",
+        "description": "Get fossil data in JSON format.",
+        "operationId": "Fossils",
+        "parameters": []
+      }
+    },
+    "/villagers": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "id"
+                  },
+                  "file-name": {
+                    "type": "string",
+                    "description": "file-name"
+                  },
+                  "name": {
+                    "type": "object",
+                    "properties": {
+                      "name-USen": {
+                        "type": "string",
+                        "description": "name-USen"
+                      },
+                      "name-EUen": {
+                        "type": "string",
+                        "description": "name-EUen"
+                      },
+                      "name-EUde": {
+                        "type": "string",
+                        "description": "name-EUde"
+                      },
+                      "name-EUes": {
+                        "type": "string",
+                        "description": "name-EUes"
+                      },
+                      "name-USes": {
+                        "type": "string",
+                        "description": "name-USes"
+                      },
+                      "name-EUfr": {
+                        "type": "string",
+                        "description": "name-EUfr"
+                      },
+                      "name-USfr": {
+                        "type": "string",
+                        "description": "name-USfr"
+                      },
+                      "name-EUit": {
+                        "type": "string",
+                        "description": "name-EUit"
+                      },
+                      "name-EUnl": {
+                        "type": "string",
+                        "description": "name-EUnl"
+                      },
+                      "name-CNzh": {
+                        "type": "string",
+                        "description": "name-CNzh"
+                      },
+                      "name-TWzh": {
+                        "type": "string",
+                        "description": "name-TWzh"
+                      },
+                      "name-JPja": {
+                        "type": "string",
+                        "description": "name-JPja"
+                      },
+                      "name-KRko": {
+                        "type": "string",
+                        "description": "name-KRko"
+                      },
+                      "name-EUru": {
+                        "type": "string",
+                        "description": "name-EUru"
+                      }
+                    },
+                    "description": "name"
+                  },
+                  "personality": {
+                    "type": "string",
+                    "description": "personality"
+                  },
+                  "birthday-string": {
+                    "type": "string",
+                    "description": "birthday-string"
+                  },
+                  "birthday": {
+                    "type": "string",
+                    "description": "birthday"
+                  },
+                  "species": {
+                    "type": "string",
+                    "description": "species"
+                  },
+                  "gender": {
+                    "type": "string",
+                    "description": "gender"
+                  },
+                  "catch-phrase": {
+                    "type": "string",
+                    "description": "catch-phrase"
+                  },
+                  "icon_uri": {
+                    "type": "string",
+                    "description": "icon_uri"
+                  },
+                  "image_uri": {
+                    "type": "string",
+                    "description": "image_uri"
+                  },
+                  "catch-translations": {
+                    "type": "object",
+                    "properties": {
+                      "catch-USen": {
+                        "type": "string",
+                        "description": "catch-USen"
+                      },
+                      "catch-EUen": {
+                        "type": "string",
+                        "description": "catch-EUen"
+                      },
+                      "catch-EUde": {
+                        "type": "string",
+                        "description": "catch-EUde"
+                      },
+                      "catch-EUes": {
+                        "type": "string",
+                        "description": "catch-EUes"
+                      },
+                      "catch-USes": {
+                        "type": "string",
+                        "description": "catch-USes"
+                      },
+                      "catch-EUfr": {
+                        "type": "string",
+                        "description": "catch-EUfr"
+                      },
+                      "catch-USfr": {
+                        "type": "string",
+                        "description": "catch-USfr"
+                      },
+                      "catch-EUit": {
+                        "type": "string",
+                        "description": "catch-EUit"
+                      },
+                      "catch-EUnl": {
+                        "type": "string",
+                        "description": "catch-EUnl"
+                      },
+                      "catch-CNzh": {
+                        "type": "string",
+                        "description": "catch-CNzh"
+                      },
+                      "catch-TWzh": {
+                        "type": "string",
+                        "description": "catch-TWzh"
+                      },
+                      "catch-JPja": {
+                        "type": "string",
+                        "description": "catch-JPja"
+                      },
+                      "catch-KRko": {
+                        "type": "string",
+                        "description": "catch-KRko"
+                      },
+                      "catch-EUru": {
+                        "type": "string",
+                        "description": "catch-EUru"
+                      }
+                    },
+                    "description": "catch-translations"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Villagers",
+        "description": "Get villager data in JSON format.",
+        "parameters": [],
+        "operationId": "Villagers"
+      }
+    },
+    "/songs": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "id"
+                  },
+                  "file-name": {
+                    "type": "string",
+                    "description": "file-name"
+                  },
+                  "name": {
+                    "type": "object",
+                    "properties": {
+                      "name-USen": {
+                        "type": "string",
+                        "description": "name-USen"
+                      },
+                      "name-EUen": {
+                        "type": "string",
+                        "description": "name-EUen"
+                      },
+                      "name-EUde": {
+                        "type": "string",
+                        "description": "name-EUde"
+                      },
+                      "name-EUes": {
+                        "type": "string",
+                        "description": "name-EUes"
+                      },
+                      "name-USes": {
+                        "type": "string",
+                        "description": "name-USes"
+                      },
+                      "name-EUfr": {
+                        "type": "string",
+                        "description": "name-EUfr"
+                      },
+                      "name-USfr": {
+                        "type": "string",
+                        "description": "name-USfr"
+                      },
+                      "name-EUit": {
+                        "type": "string",
+                        "description": "name-EUit"
+                      },
+                      "name-EUnl": {
+                        "type": "string",
+                        "description": "name-EUnl"
+                      },
+                      "name-CNzh": {
+                        "type": "string",
+                        "description": "name-CNzh"
+                      },
+                      "name-TWzh": {
+                        "type": "string",
+                        "description": "name-TWzh"
+                      },
+                      "name-JPja": {
+                        "type": "string",
+                        "description": "name-JPja"
+                      },
+                      "name-KRko": {
+                        "type": "string",
+                        "description": "name-KRko"
+                      },
+                      "name-EUru": {
+                        "type": "string",
+                        "description": "name-EUru"
+                      }
+                    },
+                    "description": "name"
+                  },
+                  "buy-price": {
+                    "type": "string",
+                    "description": "buy-price"
+                  },
+                  "sell-price": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "sell-price"
+                  },
+                  "isOrderable": {
+                    "type": "boolean",
+                    "description": "isOrderable"
+                  },
+                  "music_uri": {
+                    "type": "string",
+                    "description": "music_uri"
+                  },
+                  "image_uri": {
+                    "type": "string",
+                    "description": "image_uri"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Songs",
+        "description": "Get K.K. songs data in JSON format.",
+        "operationId": "Songs",
+        "parameters": []
+      }
+    },
+    "/art": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "id"
+                  },
+                  "file-name": {
+                    "type": "string",
+                    "description": "file-name"
+                  },
+                  "name": {
+                    "type": "object",
+                    "properties": {
+                      "name-USen": {
+                        "type": "string",
+                        "description": "name-USen"
+                      },
+                      "name-EUen": {
+                        "type": "string",
+                        "description": "name-EUen"
+                      },
+                      "name-EUde": {
+                        "type": "string",
+                        "description": "name-EUde"
+                      },
+                      "name-EUes": {
+                        "type": "string",
+                        "description": "name-EUes"
+                      },
+                      "name-USes": {
+                        "type": "string",
+                        "description": "name-USes"
+                      },
+                      "name-EUfr": {
+                        "type": "string",
+                        "description": "name-EUfr"
+                      },
+                      "name-USfr": {
+                        "type": "string",
+                        "description": "name-USfr"
+                      },
+                      "name-EUit": {
+                        "type": "string",
+                        "description": "name-EUit"
+                      },
+                      "name-EUnl": {
+                        "type": "string",
+                        "description": "name-EUnl"
+                      },
+                      "name-CNzh": {
+                        "type": "string",
+                        "description": "name-CNzh"
+                      },
+                      "name-TWzh": {
+                        "type": "string",
+                        "description": "name-TWzh"
+                      },
+                      "name-JPja": {
+                        "type": "string",
+                        "description": "name-JPja"
+                      },
+                      "name-KRko": {
+                        "type": "string",
+                        "description": "name-KRko"
+                      },
+                      "name-EUru": {
+                        "type": "string",
+                        "description": "name-EUru"
+                      }
+                    },
+                    "description": "name"
+                  },
+                  "hasFake": {
+                    "type": "boolean",
+                    "description": "hasFake"
+                  },
+                  "buy-price": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "buy-price"
+                  },
+                  "sell-price": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "sell-price"
+                  },
+                  "image_uri": {
+                    "type": "string",
+                    "description": "image_uri"
+                  },
+                  "museum-desc": {
+                    "type": "string",
+                    "description": "museum-desc"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Art",
+        "description": "Get art data in JSON format.",
+        "operationId": "Art",
+        "parameters": []
+      }
+    },
+    "/backgroundmusic": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "id"
+                  },
+                  "file-name": {
+                    "type": "string",
+                    "description": "file-name"
+                  },
+                  "hour": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "hour"
+                  },
+                  "weather": {
+                    "type": "string",
+                    "description": "weather"
+                  },
+                  "music_uri": {
+                    "type": "string",
+                    "description": "music_uri"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "BGM",
+        "description": "Get hourly songs data in JSON format.",
+        "operationId": "BGM",
+        "parameters": []
+      }
+    },
+    "/houseware": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "variant": {
+                      "type": "string",
+                      "description": "variant"
+                    },
+                    "body-title": {
+                      "type": "string",
+                      "description": "body-title"
+                    },
+                    "pattern": {
+                      "type": "string",
+                      "description": "pattern"
+                    },
+                    "pattern-title": {
+                      "type": "string",
+                      "description": "pattern-title"
+                    },
+                    "isDIY": {
+                      "type": "boolean",
+                      "description": "isDIY"
+                    },
+                    "canCustomizeBody": {
+                      "type": "boolean",
+                      "description": "canCustomizeBody"
+                    },
+                    "canCustomizePattern": {
+                      "type": "boolean",
+                      "description": "canCustomizePattern"
+                    },
+                    "kit-cost": {
+                      "type": "string",
+                      "description": "kit-cost"
+                    },
+                    "color-1": {
+                      "type": "string",
+                      "description": "color-1"
+                    },
+                    "color-2": {
+                      "type": "string",
+                      "description": "color-2"
+                    },
+                    "size": {
+                      "type": "string",
+                      "description": "size"
+                    },
+                    "miles-price": {
+                      "type": "string",
+                      "description": "miles-price"
+                    },
+                    "source": {
+                      "type": "string",
+                      "description": "source"
+                    },
+                    "source-detail": {
+                      "type": "string",
+                      "description": "source-detail"
+                    },
+                    "version": {
+                      "type": "string",
+                      "description": "version"
+                    },
+                    "hha-concept-1": {
+                      "type": "string",
+                      "description": "hha-concept-1"
+                    },
+                    "hha-concept-2": {
+                      "type": "string",
+                      "description": "hha-concept-2"
+                    },
+                    "hha-series": {
+                      "type": "string",
+                      "description": "hha-series"
+                    },
+                    "hha-set": {
+                      "type": "string",
+                      "description": "hha-set"
+                    },
+                    "isInteractive": {
+                      "type": "boolean",
+                      "description": "isInteractive"
+                    },
+                    "tag": {
+                      "type": "string",
+                      "description": "tag"
+                    },
+                    "isOutdoor": {
+                      "type": "boolean",
+                      "description": "isOutdoor"
+                    },
+                    "speaker-type": {
+                      "type": "string",
+                      "description": "speaker-type"
+                    },
+                    "lighting-type": {
+                      "type": "string",
+                      "description": "lighting-type"
+                    },
+                    "isCatalog": {
+                      "type": "boolean",
+                      "description": "isCatalog"
+                    },
+                    "file-name": {
+                      "type": "string",
+                      "description": "file-name"
+                    },
+                    "variant-id": {
+                      "type": "string",
+                      "description": "variant-id"
+                    },
+                    "internal-id": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "internal-id"
+                    },
+                    "name": {
+                      "type": "object",
+                      "properties": {
+                        "name-USen": {
+                          "type": "string",
+                          "description": "name-USen"
+                        },
+                        "name-EUen": {
+                          "type": "string",
+                          "description": "name-EUen"
+                        },
+                        "name-EUde": {
+                          "type": "string",
+                          "description": "name-EUde"
+                        },
+                        "name-EUes": {
+                          "type": "string",
+                          "description": "name-EUes"
+                        },
+                        "name-USes": {
+                          "type": "string",
+                          "description": "name-USes"
+                        },
+                        "name-EUfr": {
+                          "type": "string",
+                          "description": "name-EUfr"
+                        },
+                        "name-USfr": {
+                          "type": "string",
+                          "description": "name-USfr"
+                        },
+                        "name-EUit": {
+                          "type": "string",
+                          "description": "name-EUit"
+                        },
+                        "name-EUnl": {
+                          "type": "string",
+                          "description": "name-EUnl"
+                        },
+                        "name-CNzh": {
+                          "type": "string",
+                          "description": "name-CNzh"
+                        },
+                        "name-TWzh": {
+                          "type": "string",
+                          "description": "name-TWzh"
+                        },
+                        "name-JPja": {
+                          "type": "string",
+                          "description": "name-JPja"
+                        },
+                        "name-KRko": {
+                          "type": "string",
+                          "description": "name-KRko"
+                        },
+                        "name-EUru": {
+                          "type": "string",
+                          "description": "name-EUru"
+                        }
+                      },
+                      "description": "name"
+                    },
+                    "buy-price": {
+                      "type": "string",
+                      "description": "buy-price"
+                    },
+                    "sell-price": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "sell-price"
+                    },
+                    "image_uri": {
+                      "type": "string",
+                      "description": "image_uri"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Houseware",
+        "description": "Get houseware data in JSON format.",
+        "parameters": [],
+        "operationId": "Houseware"
+      }
+    },
+    "/wallmounted": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "variant": {
+                      "type": "string",
+                      "description": "variant"
+                    },
+                    "body-title": {
+                      "type": "string",
+                      "description": "body-title"
+                    },
+                    "pattern": {
+                      "type": "string",
+                      "description": "pattern"
+                    },
+                    "pattern-title": {
+                      "type": "string",
+                      "description": "pattern-title"
+                    },
+                    "isDIY": {
+                      "type": "boolean",
+                      "description": "isDIY"
+                    },
+                    "canCustomizeBody": {
+                      "type": "boolean",
+                      "description": "canCustomizeBody"
+                    },
+                    "canCustomizePattern": {
+                      "type": "boolean",
+                      "description": "canCustomizePattern"
+                    },
+                    "kit-cost": {
+                      "type": "string",
+                      "description": "kit-cost"
+                    },
+                    "color-1": {
+                      "type": "string",
+                      "description": "color-1"
+                    },
+                    "color-2": {
+                      "type": "string",
+                      "description": "color-2"
+                    },
+                    "size": {
+                      "type": "string",
+                      "description": "size"
+                    },
+                    "source": {
+                      "type": "string",
+                      "description": "source"
+                    },
+                    "source-detail": {
+                      "type": "string",
+                      "description": "source-detail"
+                    },
+                    "version": {
+                      "type": "string",
+                      "description": "version"
+                    },
+                    "hha-concept-1": {
+                      "type": "string",
+                      "description": "hha-concept-1"
+                    },
+                    "hha-concept-2": {
+                      "type": "string",
+                      "description": "hha-concept-2"
+                    },
+                    "hha-series": {
+                      "type": "string",
+                      "description": "hha-series"
+                    },
+                    "hha-set": {
+                      "type": "string",
+                      "description": "hha-set"
+                    },
+                    "isInteractive": {
+                      "type": "boolean",
+                      "description": "isInteractive"
+                    },
+                    "tag": {
+                      "type": "string",
+                      "description": "tag"
+                    },
+                    "isOutdoor": {
+                      "type": "boolean",
+                      "description": "isOutdoor"
+                    },
+                    "Lighting Type": {
+                      "type": "string",
+                      "description": "Lighting Type"
+                    },
+                    "isDoorDeco": {
+                      "type": "boolean",
+                      "description": "isDoorDeco"
+                    },
+                    "isCatalog": {
+                      "type": "boolean",
+                      "description": "isCatalog"
+                    },
+                    "file-name": {
+                      "type": "string",
+                      "description": "file-name"
+                    },
+                    "variant-id": {
+                      "type": "string",
+                      "description": "variant-id"
+                    },
+                    "internal-id": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "internal-id"
+                    },
+                    "name": {
+                      "type": "object",
+                      "properties": {
+                        "name-USen": {
+                          "type": "string",
+                          "description": "name-USen"
+                        },
+                        "name-EUen": {
+                          "type": "string",
+                          "description": "name-EUen"
+                        },
+                        "name-EUde": {
+                          "type": "string",
+                          "description": "name-EUde"
+                        },
+                        "name-EUes": {
+                          "type": "string",
+                          "description": "name-EUes"
+                        },
+                        "name-USes": {
+                          "type": "string",
+                          "description": "name-USes"
+                        },
+                        "name-EUfr": {
+                          "type": "string",
+                          "description": "name-EUfr"
+                        },
+                        "name-USfr": {
+                          "type": "string",
+                          "description": "name-USfr"
+                        },
+                        "name-EUit": {
+                          "type": "string",
+                          "description": "name-EUit"
+                        },
+                        "name-EUnl": {
+                          "type": "string",
+                          "description": "name-EUnl"
+                        },
+                        "name-CNzh": {
+                          "type": "string",
+                          "description": "name-CNzh"
+                        },
+                        "name-TWzh": {
+                          "type": "string",
+                          "description": "name-TWzh"
+                        },
+                        "name-JPja": {
+                          "type": "string",
+                          "description": "name-JPja"
+                        },
+                        "name-KRko": {
+                          "type": "string",
+                          "description": "name-KRko"
+                        },
+                        "name-EUru": {
+                          "type": "string",
+                          "description": "name-EUru"
+                        }
+                      },
+                      "description": "name"
+                    },
+                    "buy-price": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "buy-price"
+                    },
+                    "sell-price": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "sell-price"
+                    },
+                    "image_uri": {
+                      "type": "string",
+                      "description": "image_uri"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Wallmounted",
+        "operationId": "Wallmounted",
+        "parameters": [],
+        "description": "Get wallmounted data in JSON format."
+      }
+    },
+    "/misc": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "variant": {
+                      "type": "string",
+                      "description": "variant"
+                    },
+                    "body-title": {
+                      "type": "string",
+                      "description": "body-title"
+                    },
+                    "pattern": {
+                      "type": "string",
+                      "description": "pattern"
+                    },
+                    "pattern-title": {
+                      "type": "string",
+                      "description": "pattern-title"
+                    },
+                    "isDIY": {
+                      "type": "boolean",
+                      "description": "isDIY"
+                    },
+                    "canCustomizeBody": {
+                      "type": "boolean",
+                      "description": "canCustomizeBody"
+                    },
+                    "canCustomizePattern": {
+                      "type": "boolean",
+                      "description": "canCustomizePattern"
+                    },
+                    "kit-cost": {
+                      "type": "string",
+                      "description": "kit-cost"
+                    },
+                    "color-1": {
+                      "type": "string",
+                      "description": "color-1"
+                    },
+                    "color-2": {
+                      "type": "string",
+                      "description": "color-2"
+                    },
+                    "size": {
+                      "type": "string",
+                      "description": "size"
+                    },
+                    "source": {
+                      "type": "string",
+                      "description": "source"
+                    },
+                    "source-detail": {
+                      "type": "string",
+                      "description": "source-detail"
+                    },
+                    "version": {
+                      "type": "string",
+                      "description": "version"
+                    },
+                    "hha-concept-1": {
+                      "type": "string",
+                      "description": "hha-concept-1"
+                    },
+                    "hha-concept-2": {
+                      "type": "string",
+                      "description": "hha-concept-2"
+                    },
+                    "hha-series": {
+                      "type": "string",
+                      "description": "hha-series"
+                    },
+                    "hha-set": {
+                      "type": "string",
+                      "description": "hha-set"
+                    },
+                    "isInteractive": {
+                      "type": "boolean",
+                      "description": "isInteractive"
+                    },
+                    "tag": {
+                      "type": "string",
+                      "description": "tag"
+                    },
+                    "isOutdoor": {
+                      "type": "boolean",
+                      "description": "isOutdoor"
+                    },
+                    "speaker-type": {
+                      "type": "string",
+                      "description": "speaker-type"
+                    },
+                    "lighting-type": {
+                      "type": "string",
+                      "description": "lighting-type"
+                    },
+                    "isCatalog": {
+                      "type": "boolean",
+                      "description": "isCatalog"
+                    },
+                    "file-name": {
+                      "type": "string",
+                      "description": "file-name"
+                    },
+                    "variant-id": {
+                      "type": "string",
+                      "description": "variant-id"
+                    },
+                    "internal-id": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "internal-id"
+                    },
+                    "name": {
+                      "type": "object",
+                      "properties": {
+                        "name-USen": {
+                          "type": "string",
+                          "description": "name-USen"
+                        },
+                        "name-EUen": {
+                          "type": "string",
+                          "description": "name-EUen"
+                        },
+                        "name-EUde": {
+                          "type": "string",
+                          "description": "name-EUde"
+                        },
+                        "name-EUes": {
+                          "type": "string",
+                          "description": "name-EUes"
+                        },
+                        "name-USes": {
+                          "type": "string",
+                          "description": "name-USes"
+                        },
+                        "name-EUfr": {
+                          "type": "string",
+                          "description": "name-EUfr"
+                        },
+                        "name-USfr": {
+                          "type": "string",
+                          "description": "name-USfr"
+                        },
+                        "name-EUit": {
+                          "type": "string",
+                          "description": "name-EUit"
+                        },
+                        "name-EUnl": {
+                          "type": "string",
+                          "description": "name-EUnl"
+                        },
+                        "name-CNzh": {
+                          "type": "string",
+                          "description": "name-CNzh"
+                        },
+                        "name-TWzh": {
+                          "type": "string",
+                          "description": "name-TWzh"
+                        },
+                        "name-JPja": {
+                          "type": "string",
+                          "description": "name-JPja"
+                        },
+                        "name-KRko": {
+                          "type": "string",
+                          "description": "name-KRko"
+                        },
+                        "name-EUru": {
+                          "type": "string",
+                          "description": "name-EUru"
+                        }
+                      },
+                      "description": "name"
+                    },
+                    "buy-price": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "buy-price"
+                    },
+                    "sell-price": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "sell-price"
+                    },
+                    "image_uri": {
+                      "type": "string",
+                      "description": "image_uri"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": "Misc",
+        "description": "Get miscellaneous data in JSON format.",
+        "operationId": "Misc",
+        "parameters": []
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {},
+  "security": [],
+  "tags": []
+}
