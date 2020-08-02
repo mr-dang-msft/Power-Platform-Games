@@ -2,10 +2,13 @@
 Samples of games developed on Microsoft Power Platform
 
 ### Animal Crossing companion app
+It is difficult to know which critters can be found at any given time in Animal Crossing. Reading and sorting tables on internet articles is inefficient. THe Animal Crossing companion app solves this problem by providing a one-click experience to filter out fish, sea creatures, and bugs to only those that are currently available. It also has other features to augment the gaming experience in Animal Crossing.
 | File name | Description | 
 | --- | :-- | 
 | ACNHViewer_20200802202013.zip | App package to import into Power Apps |
 | AnimalCrossing.swagger.json | Swagger file for creating a custom connector |
+
+![A screenshot of the Animal Crossing companion app showing a screen for sea creatures. At the top of the screen is a header with a title for sea creatures. Below that are a set of drop down menus for filtering sea creatures. Below that is a grid showing the resulting filter of sea creatures.](https://powerblob.blob.core.windows.net/powerapps/acnhapp_sea.png "Sea Creatures screen")
 
 ### Setup
 ##### Importing the custom connector
