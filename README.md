@@ -27,4 +27,4 @@ It is difficult to know which critters can be found at any given time in Animal 
 11. Click Import.
 
 ### Credits
-The Animal Crossing companion app and its custom connector use the [ACNH API](http://acnhapi.com/) by [Alexis Lours](mailto:admin@acnhapi.com). 
+The Animal Crossing companion app and its custom connector use data and images from the [ACNH API](http://acnhapi.com/) by [Alexis Lours](mailto:admin@acnhapi.com). 
