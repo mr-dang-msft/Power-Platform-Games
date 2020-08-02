@@ -1,5 +1,5 @@
 # Power Platform Games
-Samples of games developed on Microsoft Power Platform
+Samples of games and game support tools developed on Microsoft Power Platform
 
 ### Animal Crossing companion app
 It is difficult to know which critters can be found at any given time in Animal Crossing. Reading and sorting tables on internet articles is inefficient. The Animal Crossing companion app solves this problem by providing a one-click experience to filter out fish, sea creatures, and bugs to only those that are currently available. It also has other features to augment the gaming experience in Animal Crossing.
