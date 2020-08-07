@@ -5,6 +5,7 @@ Samples of games and game support tools developed on Microsoft Power Platform
 It is difficult to know which critters can be found at any given time in Animal Crossing. Reading and sorting tables on internet articles is inefficient. The Animal Crossing companion app solves this problem by providing a one-click experience to filter out fish, sea creatures, and bugs to only those that are currently available. It also has other features to augment the gaming experience in Animal Crossing.
 | File name | Description | 
 | --- | :-- | 
+| Nookidex_20200807191732.zip | v1.03: Added houseware, settings, villager favorites |
 | ACNHViewer_20200806020502.zip | v1.02: Added Turnip price tracker |
 | ACNHViewer_20200802202013.zip | v1.00: App package to import into Power Apps |
 | AnimalCrossing.swagger.json | Swagger file for creating a custom connector |
