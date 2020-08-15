@@ -77,20 +77,21 @@ This chess app uses SharePoint as a data source. The included flow will provisio
 18. Expand the formula bar for the OnSelect property of the App object. Scroll to the end where there is a section for admins. Replace the existing email with that of whoever would like to own this app.
 19. Save and publish the app.
 
-At this point, if you would like to have push notifications in the app, skip this next section (steps 20-23) and proceed to step 24. If you do NOT want push notifications, continue with step 20.
+At this point, if you would like to have push notifications in the app, skip this next section (steps 20-24) and proceed to step 25. If you do NOT want push notifications, continue with step 20.
 
 ### Configuring notifications
 ##### Steps for removing push notifications
 20. At the top of the tree view is a search bar. Search for 'end'. Select the control ToggleMoveEnd.
 21. Go to the OnCheck property of ToggleMoveEnd. Scroll about midway to a section of the formula for Notification Phase.
-22. Remove that section if you do not want notifications. Or modify it to perform the kind of alert of your choice.
-23. Remove the connection to Power Apps notification from the data pane as well if you do not want the notifications.
+22. Delete the formula starting with a condition for notifications. Or modify it to perform the kind of alert of your choice.
+23. Search the tree view for a control called ButtonForfeitConfirm. Scroll to the bottom of its OnSelect property and remove the formula for sending a notification for forfeiture.
+24. Remove the connection to Power Apps notification from the data pane as well if you do not want the notifications.
 
 ##### Steps for maintaining push notifications
-24. In another browser tab, return to [make.powerapps.com](https://make.powerapps.com/home). From the left pane, go to the Apps page.
-25. Click the ellipsis beside the Chess app and go to its Details. Copy the app id from this page.
-26. From the left pane, expand Data and then go to the page for Connections.
-25. Create a new connection for Power Apps notification. Paste in the app id you copied earlier. Save the connection.
-26. Before leaving this page, search for the same connection again. This time, edit it and give it a descriptive name. This is important as you may have multiple connections to Power Apps notifcations.
-27. Return to the browser tab with the Power Apps studio. Remove the existing connection to the Power Apps notification. Then add the connection you just created. 
-28. Save and publish the app.
+25. In another browser tab, return to [make.powerapps.com](https://make.powerapps.com/home). From the left pane, go to the Apps page.
+26. Click the ellipsis beside the Chess app and go to its Details. Copy the app id from this page.
+27. From the left pane, expand Data and then go to the page for Connections.
+28. Create a new connection for Power Apps notification. Paste in the app id you copied earlier. Save the connection.
+29. Before leaving this page, search for the same connection again. This time, edit it and give it a descriptive name. This is important as you may have multiple connections to Power Apps notifcations.
+30. Return to the browser tab with the Power Apps studio. Remove the existing connection to the Power Apps notification. Then add the connection you just created. 
+31. Save and publish the app.
