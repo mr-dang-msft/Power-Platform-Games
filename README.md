@@ -94,8 +94,9 @@ At this point, if you would like to have push notifications in the app, skip thi
 28. Create a new connection for Power Apps notification. Paste in the app id you copied earlier. Save the connection.
 29. Before leaving this page, search for the same connection again. This time, edit it and give it a descriptive name. This is important as you may have multiple connections to Power Apps notifcations.
 30. Return to the browser tab with the Power Apps studio. Remove the existing connection to the Power Apps notification. Then add the connection you just created. 
-31. Save and publish the app.
+31. Save and publish the app. 
 
-With the same app id copied, one final step is to add it to the Game List on SharePoint.
-32. Go to the SharePoint site that you created with the flow. Locate the list for GameList. 
-33. Add a new item with "Chess" as the Title (no quotes). And paste in the app id as the app id. Save the item.
+##### Updating the list
+32. With the same app id copied, one final step is to add it to the Game List on SharePoint.
+33. Go to the SharePoint site that you created with the flow. Locate the list for GameList. 
+34. Add a new item with "Chess" as the Title (no quotes). And paste in the app id as the app id. Save the item.
