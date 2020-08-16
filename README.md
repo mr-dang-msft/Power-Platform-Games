@@ -52,7 +52,7 @@ Start by downloading these required files:
 | --- | :-- | 
 | Chess.Deploy_20200815093400.zip | Flow for setting up tables |
 | Chess.Invite_20200815233705.zip | Flow for inviting players to a match (optional) |
-| Chess_for_Power_Apps_v1.01.msapp | v1.01 Chess for Power Apps (msapp) |
+| Chess_for_Power_Apps_v1.02.msapp | v1.02 Chess for Power Apps (most recent), fixed an iOS bug |
 
 The import consists of these major steps:
 * Importing the data source
