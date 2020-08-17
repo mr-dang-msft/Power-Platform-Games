@@ -46,13 +46,14 @@ Within the app, I hope you will see many examples of these patterns in context--
 
 Below you will find instructions on how to set up the data source and import the app for yourself. What you choose to do with the app is up to you!
 
-Start by downloading these required files:
+Start by downloading the Chess.Deploy flow and the latest version of Chess for Power Apps:
 
 | File name | Description | 
 | --- | :-- | 
 | Chess.Deploy_20200815093400.zip | Flow for setting up tables |
 | Chess.Invite_20200815233705.zip | Flow for inviting players to a match (optional) |
-| Chess_for_Power_Apps_v1.02.msapp | v1.02 Chess for Power Apps (most recent), fixed an iOS bug |
+| Chess_for_Power_Apps_v1.03.msapp | v1.03 Chess for Power Apps (most recent), fixed a guest user bug |
+| Chess_for_Power_Apps_v1.02.msapp | v1.02 Chess for Power Apps, fixed an iOS bug |
 
 The import consists of these major steps:
 * Importing the data source
