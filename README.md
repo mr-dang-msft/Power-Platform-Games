@@ -23,9 +23,9 @@ Copyright/Attribution Notice:
 Isometric Mini-Crusader by Bleed - [remusprites.carbonmade.com](https://remusprites.carbonmade.com/)
 
 ##### Configure the app
-7. Download the msapp file (Isometric_Dojo.msapp).
+7. Download the msapp file from this repository (Isometric_Dojo_v1.0.msapp): https://github.com/mr-dang-msft/Power-Platform-Games/blob/master/Isometric_Dojo_v1.0.msapp.
 8. Open the Power Apps studio (create.powerapps.com) and login.
-9. Go to File > Open > Browse then locate and open Isometric_Dojo.msapp.
+9. Go to File > Open > Browse then locate and open Isometric_Dojo_v1.0.msapp.
 10. Click the App object from the tree view.
 11. Go to the OnStart property of the App object. Expand the formula bar and revise the OnStart property to update the variables for:
 * varBlobURL
