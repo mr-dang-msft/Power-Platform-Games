@@ -6,6 +6,8 @@ Have you seen the progress I've been making on my isometric game? Does it make y
 
 In v1.0 you will find comments in many of the formulas. This is meant for you to see the common patterns used to make the game.
 
+[![Isometric Dojo](https://pbs.twimg.com/media/EqfDqq9VEAU9LVH?format=jpg&name=4096x4096)](https://twitter.com/mrdang/status/1344267986526322690)
+
 ### Setup
 ##### Prepare the artwork
 The app uses artwork that is free with attribution. Please follow these instructions to download the art and host it on your own storage.
