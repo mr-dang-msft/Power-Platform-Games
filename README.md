@@ -1,6 +1,41 @@
 # Power Platform Games
 Samples of games and game support tools developed on Microsoft Power Platform
 
+# Mr. Dang's Isometric Dojo
+Have you seen the progress I've been making on my isometric game? Does it make you want to make your own? The Isometric Dojo contains some of the patterns I have in my own game and you can make it your own. It is not meant to be a game that you play but that you create.
+
+In v1.0 you will find comments in many of the formulas. This is meant for you to see the common patterns used to make the game.
+
+### Setup
+##### Prepare the artwork
+The app uses artwork that is free with attribution. Please follow these instructions to download the art and host it on your own storage.
+1. Download the wooden tiles (groundtiles_wood.png): https://jaqmarti.itch.io/isometric-groundtile-library
+2. Open groundtiles_wood.png in image editing software and save each tile and its drop shadow as its own image. The app uses a naming convention: "tile-wood-#.png" where # is an integer that counts for each tile, up to the total of 16.
+3. Download the crusader sprites (isometric_Mini-Crusader.zip): https://remos.itch.io/mini-crusader
+4. Extract the folder from isometric_Mini-Crusader.zip. 
+5. Rename the folder with images of the crusder getting hit from "got-hit" to "gothit" to match the image files.
+6. Upload the images to cloud storage of your choice.
+
+Copyright/Attribution Notice:
+Isometric Groundtile Library by Jaqueline Martin - www.patreon.com/jaqmarti
+
+Copyright/Attribution Notice:
+Isometric Mini-Crusader by Bleed - [remusprites.carbonmade.com](https://remusprites.carbonmade.com/)
+
+##### Configure the app
+7. Download the msapp file (Isometric_Dojo.msapp).
+8. Open the Power Apps studio (create.powerapps.com) and login.
+9. Go to File > Open > Browse then locate and open Isometric_Dojo.msapp.
+10. Click the App object from the tree view.
+11. Go to the OnStart property of the App object. Expand the formula bar and revise the OnStart property to update the variables for:
+* varBlobURL
+* varTilesFolder
+* varSpritesFolder
+13. Select the ellipsis beside the App object in the tree view. Click Run OnStart.
+14. Save the app.
+15. Play the app.
+16. Customize the app and make it yours!
+
 # Nookidex: a companion app for Animal Crossing
 It is difficult to know which critters can be found at any given time in Animal Crossing. Reading and sorting tables on internet articles is inefficient. The Animal Crossing companion app solves this problem by providing a one-click experience to filter out fish, sea creatures, and bugs to only those that are currently available. It also has other features to augment the gaming experience in Animal Crossing.
 | File name | Description | 
