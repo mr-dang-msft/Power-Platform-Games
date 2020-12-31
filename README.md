@@ -4,35 +4,43 @@ Samples of games and game support tools developed on Microsoft Power Platform
 # Mr. Dang's Isometric Dojo
 Have you seen the progress I've been making on my isometric game? Does it make you want to make your own? The Isometric Dojo contains some of the patterns I have in my own game and you can make it your own. It is not meant to be a game that you play but that you create.
 
-In v1.0 you will find comments in many of the formulas. This is meant for you to see the common patterns used to make the game.
+In v1.01 you will find comments in many of the formulas. This is meant for you to see the common patterns used to make the game.
 
 [![Isometric Dojo](https://pbs.twimg.com/media/EqfDqq9VEAU9LVH?format=jpg&name=4096x4096)](https://twitter.com/mrdang/status/1344267986526322690)
 
+### Version history
+| File name | Description | 
+| --- | :-- | 
+| Isometric_Dojo_v1.01.msapp | v1.01: Simplified tile instructions, added mini-game |
+| Isometric_Dojo_v1.0.msapp | v1.0: Initial version |
+
 ### Setup
-##### Prepare the artwork
+##### Prepare the tiles
 The app uses artwork that is free with attribution. Please follow these instructions to download the art and host it on your own storage.
 1. Download the wooden tiles (groundtiles_wood.png): https://jaqmarti.itch.io/isometric-groundtile-library
-2. Open groundtiles_wood.png in image editing software and save each tile and its drop shadow as its own image. The app uses a naming convention: "tile-wood-#.png" where # is an integer that counts for each tile, up to the total of 16.
-3. Download the crusader sprites (isometric_Mini-Crusader.zip): https://remos.itch.io/mini-crusader
-4. Extract the folder from isometric_Mini-Crusader.zip. 
-5. Rename the folder with images of the crusder getting hit from "got-hit" to "gothit" to match the image files.
-6. Upload the images to cloud storage of your choice.
+2. Upload groundtiles_wood.png to cloud storage of your choice and copy its URL.
 
 Copyright/Attribution Notice:
 Isometric Groundtile Library by Jaqueline Martin - www.patreon.com/jaqmarti
+
+##### Prepare the sprites
+3. Download the crusader sprites (isometric_Mini-Crusader.zip): https://remos.itch.io/mini-crusader
+4. Extract the folder from isometric_Mini-Crusader.zip. 
+5. Rename the folder with images of the crusder getting hit from "got-hit" to "gothit" to match the image files.
+6. Upload the folders for the sprite to cloud storage of your choice and copy the path of the folder.
 
 Copyright/Attribution Notice:
 Isometric Mini-Crusader by Bleed - [remusprites.carbonmade.com](https://remusprites.carbonmade.com/)
 
 ##### Configure the app
-7. Download the msapp file from this repository (Isometric_Dojo_v1.0.msapp): https://github.com/mr-dang-msft/Power-Platform-Games/blob/master/Isometric_Dojo_v1.0.msapp.
+7. Download the msapp file from this repository (Isometric_Dojo_v1.01.msapp): https://github.com/mr-dang-msft/Power-Platform-Games/blob/master/Isometric_Dojo_v1.01.msapp.
 8. Open the Power Apps studio (create.powerapps.com) and login.
-9. Go to File > Open > Browse then locate and open Isometric_Dojo_v1.0.msapp.
+9. Go to File > Open > Browse then locate and open Isometric_Dojo_v1.01.msapp.
 10. Click the App object from the tree view.
 11. Go to the OnStart property of the App object. Expand the formula bar and revise the OnStart property to update the variables for:
-* varBlobURL
-* varTilesFolder
-* varSpritesFolder
+* varBlobURL: Paste in a base URL that goes ahead of the folder for sprites.
+* varSpritesFolder: Paste in the path to the folder with sprites.
+* varTilesheet: Paste in the URL to go directly to groundtiles_wood.png.
 13. Select the ellipsis beside the App object in the tree view. Click Run OnStart.
 14. Save the app.
 15. Play the app.
