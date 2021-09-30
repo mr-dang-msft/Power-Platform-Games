@@ -2,9 +2,13 @@
 Samples of games and game support tools developed independently on Microsoft Power Platform
 
 # Shiproom
-Shiproom is a side-scrolling game in which your fighter spacecraft travels through space dodging enemy ships and projectiles. It is designed to work with gamepad support and played on the Xbox or any browser that supports Gamepad API.
+Shiproom is a shoot-'em-up side-scrolling game in which your fighter spacecraft travels through space dodging enemy ships and projectiles. It is designed to work with gamepad support and played on the Xbox or any browser that supports Gamepad API.
 
 The game uses artwork from Ravenmore on itch.io: https://ravenmore.itch.io/space-shooter-assets-space-rage
+
+[![Shiproom](https://8bitblob.blob.core.windows.net/assets/space-rage/Shiproom_screenshot1.png)](https://twitter.com/mrdang/status/1442163750413369344)
+
+Below are instructions on preparing the image files to work with the app file (not released yet).
 
 ##### Basic setup:
 1. Setup a folder on a blob server so you can keep the assets.
