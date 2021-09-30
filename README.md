@@ -1,5 +1,24 @@
-# Power Platform Games
-Samples of games and game support tools developed on Microsoft Power Platform
+# Games made with Power Platform
+Samples of games and game support tools developed independently on Microsoft Power Platform
+
+# Shiproom
+Shiproom is a side-scrolling game in which your fighter spacecraft travels through space dodging enemy ships and projectiles. It is designed to work with gamepad support and played on the Xbox or any browser that supports Gamepad API.
+
+The game uses artwork from Ravenmore on itch.io: https://ravenmore.itch.io/space-shooter-assets-space-rage
+
+##### Basic setup:
+1. Setup a folder on a blob server so you can keep the assets.
+2. Copy Background.png and the contents of the folder '256x256px' to the same directory in your blob storage.
+
+##### Initial fixes:
+3. Asteroids: Replace the spaces in 'Asteroid 01.png' with underscores: 'Asteroid_01.png' for consistency.
+4. Enemy_02: Place an underscore after Enemy02 for the Green and Red ships for consistency.
+5. Player: Rename files to match the naming convention that enemy ships have for consistency: 'Player_Color_Frame_##.png'. Note that the files for the Green ship are misnamed as Red and should be fixed as well.
+6. PlatformTiles: 'Platform_Corner_SouthEast.png' and 'Platform_Corner_SouthWest.png' are named incorrectly. Swap their names.
+
+##### Harder fixes:
+7. Bullets: Crop 'Proton_Large.png' so that it's 50x50px. Crop the extra space to the left of 'Minigun_Medium.png' so that it's 40x83px.
+8. Exhaust: The images for exhaust do not line up well with the ship with their default, inconsistent size. Create a blank image with a 512x512px canvas size. Place the player ship in the center of the image for reference and hide it later when exporting. Line up one frame of the exhaust at a time on the canvas and export the frame with just the exhaust (without the ship). This results in 6 frames of the exhaust positioned where they would be behind the ship on a 512x512 image size.
 
 # Mr. Dang's Isometric Dojo
 Have you seen the progress I've been making on my isometric game? Does it make you want to make your own? The Isometric Dojo contains some of the patterns I have in my own game and you can make it your own. It is not meant to be a game that you play but that you create.
